@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>To-Do List <span class="icon">📋✏️</span></h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add your text" />
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList">
+            <!-- Task items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
